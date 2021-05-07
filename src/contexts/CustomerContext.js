@@ -37,7 +37,7 @@ const CustomerContextProvider = (props) => {
   const history = useHistory();
 
 
-  //Enes e sor
+
   const updateCustomer = (customer) => {
     var index = customers.findIndex((x) => x.id === customer.id);
 

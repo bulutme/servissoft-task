@@ -15,10 +15,10 @@ const { TabPane } = Tabs;
 function callback(key) {
   console.log(key);
 }
-//Enes e sor
+
 export const CustomerEditPage = () => {
   const { id } = useParams();
-  //Enes e sor
+
   const { customers, updateCustomer } = useContext(CustomerContext);
 
   const selectedCustomer = customers.find((customer) => customer.id === id);

@@ -58,7 +58,7 @@ const AddOrUpdateForm = ({ initialValues = {}, onSubmit, buttonTitle,onClose }) 
   const onFinish = (values) => {
     console.log(values);
     const _values = { ...values, id: initialValues.id || uuidv4() };
-    //Enes e sor
+
     onSubmit(_values);
     form.resetFields();
   };
