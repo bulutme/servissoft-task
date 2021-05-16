@@ -3,6 +3,9 @@ import { Form, Input, Select, Button, Radio, Upload, AutoComplete } from "antd";
 import { UploadOutlined } from "@ant-design/icons";
 import { v4 as uuidv4 } from "uuid";
 
+
+const datas = []
+
 const validateMessages = {
   required: "${label} is required!",
   types: {
